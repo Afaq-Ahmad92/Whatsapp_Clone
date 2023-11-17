@@ -1,0 +1,50 @@
+.body{
+    position: fixed;
+    top: 8vh;
+    left: 5vw;
+    right: 5vw;
+    width: 90vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 16px 16px 10px rgba(0,0,0,0.93);
+}
+.Data{
+    width: 40%;
+    height: 50%;
+    box-sizing: border-box;
+    padding-bottom:5% ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+}
+.Data span{
+    flex: 0.50;
+    width: "100%";
+    height: 50%;
+    color: rgb(0,168,132);
+    text-align: center;
+}
+.Data h2{
+    flex: 0.10;
+    height: 10%;
+    width: 100%;
+}
+.Data button{
+    flex: 0.40;
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgb(0,168,132);
+    box-shadow: 0px 6px 6px 1px rgba(0,0,0,0.93);
+}

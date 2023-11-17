@@ -1,0 +1,187 @@
+.RightTop{
+    box-sizing: border-box;
+    flex: 0.10;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 1px 0.5px black;
+}
+.DPNAMELASTSEEN{
+    flex: 3;
+    padding-left: 2%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.Dp{
+    height: 70%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+.Dp img{
+    height: 100%;
+    clip-path: circle();
+}
+.NAMELASTSEEN{
+    height: 100%;
+    width: 30%; 
+    margin-top: -2%;
+    margin-left: -15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.NAMELASTSEEN h5{
+    margin-bottom: -10%;
+}
+.Calls{
+    box-sizing: border-box;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.Messages{
+    flex: 0.82;
+    width: 100%;
+    height: 82%;
+    box-sizing: border-box;
+    background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png'); 
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.Chat_message{
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+    min-width: 30px;
+    padding : 1%;
+    margin-bottom:2%;
+    font-size: 1rem;
+}
+.Chat_reciver{
+    margin-left: auto;
+    position: relative;
+    border-radius: 10px;
+    width: fit-content;
+    font-size: 1rem;
+    padding : 1%;
+    background-color: #dcf8c6;
+}
+.Chat_name{
+    position: absolute;
+    top: -50%;
+    padding-left: 4%;
+    font-size: small;
+    font-weight: 800;
+    font-size: .6rem;
+}
+.time{
+    font-size: xx-small;
+    margin-left: 5px;
+    font-weight: 700;
+}
+.Message{
+    flex: 0.08;
+    height: 8%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding-right: 1%;
+    align-items: center;
+}
+.Attachment{
+    flex: 0.05;
+    width: 5%;
+    height: 100%;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.Input{
+    flex: 0.90;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Input input{
+    width: 100%;
+    height: 90%;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 2%;
+}
+.Send{
+    flex: 0.05;
+    width: 5%;
+    height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+@media only screen and (max-width: 1300px) {
+    .NAMELASTSEEN{
+        margin-left: -10%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Dp{
+        height: 50%;
+        width: 15%;
+        object-fit: cover;
+    }
+    .NAMELASTSEEN{
+        height: 100%;
+        width: 50%; 
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+        font-weight: 800;
+        justify-content: flex-start;
+    }
+    .NAMELASTSEEN h5{
+        margin-bottom: -15%;
+        font-weight: 800;
+    }
+    .Attachment{
+        margin-left: 2.5%;
+    }
+    .Send{
+    margin-left: 5%;
+    }
+    .Input{
+        flex: 0.85;
+        width: 85%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.Messages::-webkit-scrollbar{
+    width: 5px;
+  }
+.Messages::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: rgb(170, 170, 170);
+  }
+.Messages::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(148, 142, 139);
+  }

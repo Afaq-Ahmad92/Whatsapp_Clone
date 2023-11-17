@@ -1,0 +1,43 @@
+.BodyMain{
+    position: fixed;
+    top: 5vh;
+    left: 3vw;
+    right: 3vw;
+    bottom: 1vh;
+    width: 94vw;
+    height: 94vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.BodyLeft{
+    flex: 0.35;
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+}
+.BodyRight{
+    flex: 0.65;
+    width: 65vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .BodyMain {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+    .BodyLeft{
+        flex: 0.45;
+        width: 45vw;
+    }
+    .BodyRight{
+        flex: 0.55;
+        width: 55vw;
+    }
+  }
